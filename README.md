@@ -27,3 +27,50 @@ Project consist of following stages:
 - Setting up a [Firebase](https://firebase.google.com/) - for Handling database, authentication and also for depolying application.Basically the database will be used to store the login information for the users, but the resource can be used for storing product information as well.
 - Setting up Authentication
 - Deployement 
+
+### Firebase 
+
+Firebase is a great service provided by Google for configuring the backend of any web application with all the general necessities like database preparation, authentication using various methods, etc.
+
+#### Setup
+
+- Create a project on Firebase, setup the database and setup sign-in method using Email/Password.
+- Register your application and set up Firebase hosting.
+- nstall necessary Firebase dependencies in your local setup.
+  ```
+  npm install -g firebase-tools && npm install firebase && firebase login
+  ```
+- Open the `Firebase SDK snippet` section in your Firebase project and copy paste the necessary configuration in a file named `firebase.js`.
+- In this file, utilize the below code to make use of Firebase authentication and database.
+   ```
+   const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+   const db = firebaseApp.firestore();
+   const auth = firebase.auth();
+
+   export { db, auth };
+   ```
+   
+   **Reference link for above process is given below :**
+   
+   - [https://firebase.google.com/docs/web/setup](https://firebase.google.com/docs/web/setup)
+   - [https://blog.logrocket.com/user-authentication-firebase-react-apps/](https://blog.logrocket.com/user-authentication-firebase-react-apps/)
+
+ #### Deployment 
+  
+  - To deploy a production version of the Amazon Clone, we need to set up Firebase hosting. Type command in console
+    ```
+    npm init
+    ```
+  - Build your React application.
+    ```
+    npm run build
+    ```
+  - Setup Firebase hosting and deploy
+    ```
+    firebase deploy
+    ```
+  **Reference link for deploying application on firebase**
+   - [https://firebase.google.com/docs/hosting/quickstart](https://firebase.google.com/docs/hosting/quickstart)
+   - [https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425](https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425)
+   
