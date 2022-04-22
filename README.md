@@ -74,3 +74,54 @@ Firebase is a great service provided by Google for configuring the backend of an
    - [https://firebase.google.com/docs/hosting/quickstart](https://firebase.google.com/docs/hosting/quickstart)
    - [https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425](https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425)
    
+ ### Usage 
+ 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+#### Available Scripts
+
+In the project directory, you can run:
+```
+npm start 
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+```
+npm build
+```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+***To run the application locally; clone the repo, install dependencies and run the app.***
+
+***To clone the repository***
+```
+https://github.com/asthasharma98/Amazon-clone.git
+```
+
+### Tools and Techologies 
+
+	![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white
+  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+  
+### Reference Link 
+
+- [How to integrate stripe with react](https://www.pluralsight.com/guides/how-to-integrate-stripe-with-react)
+- [https://stripe.com/docs/stripe-js/react](https://stripe.com/docs/stripe-js/react)
+- [https://www.toptal.com/react/react-context-api](https://www.toptal.com/react/react-context-api)
+- [http://getbem.com/naming/](http://getbem.com/naming/)
+- [https://www.digitalocean.com/community/tutorials/how-to-create-custom-components-in-react](https://www.digitalocean.com/community/tutorials/how-to-create-custom-components-in-react)
+
+### Credits 
+
+[Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
+  
