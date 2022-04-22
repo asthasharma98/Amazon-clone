@@ -107,7 +107,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 https://github.com/asthasharma98/Amazon-clone.git
 ```
 
-### Tools and Techologies 
+### Tools and Technologies 
   
   ![https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)	
   ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
